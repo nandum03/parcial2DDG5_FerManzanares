@@ -1,0 +1,173 @@
+/* Estilos generales para todas las páginas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #c0dcff;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #04012d;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Estilos de las franjas laterales */
+.franja-lateral {
+    position: absolute;
+    width: 300px;
+    height: 175px;
+    background-color: #04012d; /* Azul negro */
+    border-radius: 50px;
+    top: 50px;
+    z-index: 1; /* Debajo de la imagen */
+}
+
+.franja-izquierda {
+    left: -100px;
+}
+
+.franja-derecha {
+    right: -100px;
+}
+
+/* Estilos de la franja inferior */
+.franja-inferior {
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    background-color: #04012d; /* Azul negro */
+    border-radius: 50px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.franja-inferior a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.franja-inferior a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de los botones */
+.btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #04012d;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #04012d;
+}
+
+/* Estilos de los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #04012d;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Estilos para la tabla de habilidades */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px; 
+    text-align: left;
+}
+
+th {
+    background-color: #04012d;
+    color: white;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #04012d;
+}
+
+/* Estilos de la sección de contacto */
+.footer {
+    margin-top: 20px;
+}
+
+/********* Página de Index *********/
+.index-image {
+    width: 300px;
+    height: auto;
+    border-radius: 250px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+img {
+  
+    margin: auto;
+    border-radius: 100px; 
+}
+
+/********* Página de Habilidades *********/
+.skills-table {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********* Página de Intereses *********/
+.interests-list {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/********* Página de Contacto *********/
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
